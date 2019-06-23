@@ -1,50 +1,3 @@
-#!/bin/bash
-echo --------------------start--------------------
-echo ------------------ 运算符--------------------
-echo ------------------算数运算符-----------------
-val=`expr 2 + 2`
-echo "两数之和："$val
-
-a=10
-b=20
-echo a=$a,b=$b
-
-val=`expr $a + $b`
-echo a + b:$val
-
-val=`expr $a - $b`
-echo a - b：$val
-
-
-val=`expr $a \* $b`
-echo a \* b：$val
-
-val=`expr $a / $b`
-echo a / b：$val
-val=`expr $b / $a`
-echo b / a:$val
-
-val=`expr $b % $a`
-echo b % a：$val
-
-a=$b
-echo a=\$b：$a
-
-val= [ $a==$b ]
-echo -n 相等：$val  
-if [ $a==$b ]
-then
-	echo "a等于b"
-fi
-val= [ $a!=$b ]
-echo -n 不相等：$val   
-if [ $a!=$b ]
-then 
-	echo "a不等于b"
-fi
-
-echo
-echo
 echo --------------------关系运算符-------------------
 echo 关系运算符只支持数字，不支持字符串，除非字符串的值是数字
 a=10
@@ -100,9 +53,3 @@ then
 else
 	echo "\$a -le \$b:" a 不小于等于（大于） b
 fi
-
-echo
-echo
-echo ------------------end---------------------------
-
-

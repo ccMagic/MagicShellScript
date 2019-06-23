@@ -1,0 +1,15 @@
+#!/bin/bash
+ 
+echo "-b file 检测文件是否是块设备文件，如果是，则返回true"
+echo "-c file 检测文件是否是字符设备文件，如果是，则返回true"
+echo "-d file 检测文件是否是目录，如果是，返回true"
+echo "-f file 检测文件是否是普通文件（既不是目录，也不是设备文件），如果是，则返回true"
+echo "-g file 检测文件是否设置了SGID位，如果是，则返回true"
+echo "-k file 检测文件是否设置了粘着位（sticky bit），如果是，则返回true"
+echo "-p file 检测文件是否是有名管道，如果是，则返回true"
+echo "-u file 检测文件是否设置了SUID位，如果是，则返回true"
+echo "-r file 检测文件是否可读，如果是，则返回true"
+echo "-w file 检测文件是否可写，如果是，则返回true"
+echo "-x file 检测文件是否可执行，如果是，则返回true"
+echo "-s file 检测文件是否为空（文件大小是否大于0），不为空返回true"
+echo "-e file 检测文件（包含目录）是否存在，如果是。，则返回true"
