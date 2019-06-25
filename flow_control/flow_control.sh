@@ -37,21 +37,3 @@ else
 	echo 两个数不相等
 fi
 
-echo 
-echo
-echo
-echo for循环-------
-echo for var in item1 item2 ... itemN
-echo do
-echo    command1
-echo    command2
-echo    ...
-echo    commandN
-echo done
-echo 或者
-echo for var in item1 item2 ... itemN\;do command1\;command2... done\;
-for lopp in 1 2 3 4 5 
-do 
-	echo "The value is $lopp"
-	echo THe 3Xvalue is [ $loop * 3] 
-done
